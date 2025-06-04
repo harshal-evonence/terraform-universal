@@ -10,7 +10,7 @@ module "instance_template_db" {
   source_image_project = "debian-cloud"
   source_image         = "debian-12"
   machine_type         = "n2-standard-8"
-  disk_size_gb         = 500
+  disk_size_gb         = 50
   disk_type            = "pd-ssd"
   service_account = {
     email  = google_service_account.db_client_sa.email
