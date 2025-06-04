@@ -54,20 +54,22 @@ Run these commands
 This is the folder structure
 
 ├── dev.tfvars
-    ├── PlatformInfrastructure
-    │   ├── apis.tf
-    │   ├── backend.tf
-    │   ├── database-client.tf
-    │   ├── firewall-rules.tf
-    │   ├── gke-client.tf
-    │   ├── gke.tf
-    │   ├── iam.tf
-    │   ├── mysql.tf
-    │   ├── networking.tf
-    │   ├── output.tf
-    │   ├── postgresql.tf
-    │   ├── provider.tf
-    │   ├── random.tf
-    │   └── variables.tf
-    ├── production.tfvars
-    ├── README.md# terraform-universal
+├── PlatformInfrastructure
+│   ├── apis.tf
+│   ├── backend.tf
+│   ├── database-client.tf
+│   ├── firewall-rules.tf
+│   ├── gke-client.tf
+│   ├── gke.tf
+│   ├── iam.tf
+│   ├── mysql.tf
+│   ├── networking.tf
+│   ├── output.tf
+│   ├── postgresql.tf
+│   ├── provider.tf
+│   ├── random.tf
+│   └── variables.tf
+├── production.tfvars
+├── README.md
+├── stage.tfvars
+└── test.tfvars
