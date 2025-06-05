@@ -52,8 +52,8 @@ Run these commands
     terraform plan --var-file=config/dev/dev.tfvars --var-file=config/dev/nextrelease/spheredx-nextrelease.tfvars
     terraform apply --var-file=config/dev/dev.tfvars --var-file=config/dev/nextrelease/spheredx-nextrelease.tfvars    
 */
+
 # Folder Structure
-This is the folder structure
     ├── dev.tfvars
     └── platforminfra
         ├── artifact-registry.tf
@@ -74,4 +74,5 @@ This is the folder structure
         ├── storage.tf
         ├── variables.tf
         └── version.tf
+
 
