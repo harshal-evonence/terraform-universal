@@ -9,10 +9,6 @@ output "regional_subnet_id" {
   value       = google_compute_subnetwork.regional_subnet.id
 }
 
-output "db_subnet_id" {
-  description = "DB Subnet ID"
-  value       = google_compute_subnetwork.db_subnet.id
-}
 
 # GKE outputs
 output "gke_cluster_name" {

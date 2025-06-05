@@ -20,7 +20,10 @@ module "enable_apis" {
     "gkehub.googleapis.com",
     "secretmanager.googleapis.com",
     "redis.googleapis.com",
-    "cloudbuild.googleapis.com"
+    "cloudbuild.googleapis.com",
+    "memcache.googleapis.com",           
+    "confidentialcomputing.googleapis.com",
+    "iamcredentials.googleapis.com"
   ]
   
   disable_services_on_destroy = false

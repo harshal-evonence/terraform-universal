@@ -28,15 +28,3 @@ resource "google_compute_subnetwork" "regional_subnet" {
   }
 }
 
-# Additional subnet for database instances
-resource "google_compute_subnetwork" "db_subnet" {
-  name          = "${var.subnet_name}-db"
-  region        = var.region
-  network       = google_compute_network.vpc.id
-  project       = var.project_id
-  description   = "Subnet for database instances in ${var.environment} environment"
-  ip_cidr_range = "10.3.0.0/24"
-
-  private_ip_google_access = true
-
-}

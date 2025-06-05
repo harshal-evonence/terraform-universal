@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# terraform-universal
+
+>>>>>>> 83dd6389a2e56a2c10eb9dfd3fd04ebce8fa2826
 # Initialization (One-time during project creation)
 
     export PROJECT_ID=fifth-shine-459017-v7
@@ -70,4 +75,8 @@ This is the folder structure
     │   ├── random.tf
     │   └── variables.tf
     ├── production.tfvars
+<<<<<<< HEAD
     ├── README.md# terraform-universal
+=======
+    ├── README.md
+>>>>>>> 83dd6389a2e56a2c10eb9dfd3fd04ebce8fa2826

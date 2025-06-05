@@ -24,10 +24,6 @@ resource "google_compute_router_nat" "nat" {
     source_ip_ranges_to_nat = ["ALL_IP_RANGES"]
   }
 
-  subnetwork {
-    name                    = google_compute_subnetwork.db_subnet.self_link
-    source_ip_ranges_to_nat = ["ALL_IP_RANGES"]
-  }
 
   log_config {
     enable = true
