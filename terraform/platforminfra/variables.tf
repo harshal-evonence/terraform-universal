@@ -135,7 +135,7 @@ variable "confidential_vm_zone" {
 variable "confidential_vm_disk_size" {
   description = "Boot disk size for confidential VM"
   type        = number
-  default     = 10
+  default     = 50
 }
 
 
