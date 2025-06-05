@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 # terraform-universal
 
->>>>>>> 83dd6389a2e56a2c10eb9dfd3fd04ebce8fa2826
 # Initialization (One-time during project creation)
 
     export PROJECT_ID=fifth-shine-459017-v7
@@ -57,48 +54,24 @@ Run these commands
 */
 # Folder Structure
 This is the folder structure
+    ├── dev.tfvars
+    └── platforminfra
+        ├── artifact-registry.tf
+        ├── code-refactor-vm.tf
+        ├── compute-engine.tf
+        ├── enable-apis.tf
+        ├── firewall.tf
+        ├── gke.tf
+        ├── iam.tf
+        ├── mysql.tf
+        ├── nat.tf
+        ├── network.tf
+        ├── output.tf
+        ├── postgresql.tf
+        ├── provider.tf
+        ├── random.tf
+        ├── redis.tf
+        ├── storage.tf
+        ├── variables.tf
+        └── version.tf
 
-├── dev.tfvars
-<<<<<<< HEAD
-    ├── PlatformInfrastructure
-    │   ├── apis.tf
-    │   ├── backend.tf
-    │   ├── database-client.tf
-    │   ├── firewall-rules.tf
-    │   ├── gke-client.tf
-    │   ├── gke.tf
-    │   ├── iam.tf
-    │   ├── mysql.tf
-    │   ├── networking.tf
-    │   ├── output.tf
-    │   ├── postgresql.tf
-    │   ├── provider.tf
-    │   ├── random.tf
-    │   └── variables.tf
-    ├── production.tfvars
-<<<<<<< HEAD
-    ├── README.md# terraform-universal
-=======
-    ├── README.md
->>>>>>> 83dd6389a2e56a2c10eb9dfd3fd04ebce8fa2826
-=======
-├── PlatformInfrastructure
-│   ├── apis.tf
-│   ├── backend.tf
-│   ├── database-client.tf
-│   ├── firewall-rules.tf
-│   ├── gke-client.tf
-│   ├── gke.tf
-│   ├── iam.tf
-│   ├── mysql.tf
-│   ├── networking.tf
-│   ├── output.tf
-│   ├── postgresql.tf
-│   ├── provider.tf
-│   ├── random.tf
-│   └── variables.tf
-├── production.tfvars
-├── README.md
-├── stage.tfvars
-└── test.tfvars
->>>>>>> 4bfec44d7d8d0c4073a413158a218dfa61929b6e
